@@ -42,7 +42,8 @@ function configure(api) {
 
   api.addFiles([
     'lib/methods.js',
-    'lib/collections.js'
+    'lib/collections.js',
+    'lib/publications.js'
   ], ['client', 'server']);
 
   api.addFiles([
