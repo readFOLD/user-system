@@ -24,10 +24,7 @@ Package.onUse(function (api) {
 
 function configure(api) {
   api.versionsFrom('METEOR@1.1.0.1');
-  api.use('aldeed:autoform@5.1.0');
   api.use('aldeed:collection2@2.3.0');
-  api.use('bozhao:link-accounts@1.0.0');
-  api.use('email@1.0.6');
   api.use('lepozepo:cloudinary@3.0.0');
   //meteorhacks:npm                    1.3.0  Use npm modules with your Meteor App
   //mystor:device-detection            0.2.0  Client-Side Device Type Detection & Template Switching with Opti...
