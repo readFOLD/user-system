@@ -3,7 +3,7 @@ var fs = Npm.require('fs');
 
 Package.describe({
   "summary": "User account creation and update methods etc..",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "git": "https://github.com/readFOLD/user-system",
   "name": "fold:user-system"
 });
@@ -39,11 +39,11 @@ function configure(api) {
 
   api.addFiles([
     'lib/methods.js',
-    'lib/collections.js',
-    'lib/publications.js'
+    'lib/collections.js'
   ], ['client', 'server']);
 
   api.addFiles([
-    'server/methods.js'
+    'server/methods.js',
+    'server/publications.js'
   ], ['server']);
 }
